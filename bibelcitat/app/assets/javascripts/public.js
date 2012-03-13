@@ -1,0 +1,9 @@
+//= require jquery
+//= require jquery_ujs
+//= require ./plugins/cufon-yui
+//= require ./plugins/chaparralpro.font
+//= require ./plugins/jquery.easing.1.3
+//= require ./plugins/jquery.scrollTo-min
+//= require ./plugins/jqueryslidemenu
+//= require ./plugins/aktuals
+//= require_self

@@ -1,14 +1,505 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Bibelcitat</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<%= yield %>
+<!-- BEGIN html -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-</body>
+	<!-- BEGIN head -->
+	<head>
+	
+		<!-- Title -->
+		<title>Ray Of Light - WordPress Theme For Religious Movements And Churches</title>
+		
+		<!-- Meta Tags -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	  <%= csrf_meta_tags %>
+	  
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+		
+		<!-- Stylesheets -->
+	 	<%= stylesheet_link_tag "application", :media => "all" %>
+		
+		<!-- JavaScripts -->
+
+		<!--[if lte IE 7]>
+		<style type="text/css">
+			html .jqueryslidemenu { height: 1%; } /* Holly Hack for IE7 and below */
+		</style>
+		<![endif]-->
+
+	<!-- END head -->
+	</head>
+	
+	<!-- BEGIN body -->
+	<body>
+
+
+		<!-- BEGIN .container -->
+		<div class="container">
+		
+		
+			<!-- BEGIN .header-wrapper -->
+			<div class="header-wrapper">
+			
+				<!-- BEGIN .header -->
+				<div class="header">
+				
+					<!-- BEGIN .doves -->
+					<span class="doves">&nbsp;</span>
+					<!-- END .doves -->
+				
+					<!-- BEGIN .logo -->
+					<div class="logo">
+						<h1><a href="#"><img src="/assets/logo-rayoflight-1.png" alt="Ray Of Light - WordPress Theme For Religious Movements And Churches" /></a></h1>
+						<!-- <h1><a href="#">Your Page Name Goes Here</a></h1> -->
+					<!-- END .logo -->
+					</div>
+					
+					<!-- BEGIN .header-right -->
+					<div class="header-right">
+					
+						<!-- BEGIN .searchform -->
+						<form action="#" class="searchform">
+							<input type="text" class="input-text" value="search here" onfocus="if (this.value == 'search here') {this.value = '';};" />
+							<input type="image" src="/assets/blank.png" class="input-button" value="Search!" />
+						<!-- END .searchform -->
+						</form>
+
+					<!-- END .header-right -->
+					</div>
+					
+				<!-- END .header -->	
+				</div>
+				
+			<!-- END .header-wrapper -->
+			</div>
+			
+			
+			<!-- BEGIN .menu-primary-wrapper -->
+			<div class="menu-primary-wrapper">
+			
+			
+				<!-- BEGIN .menu-primary -->
+				<div class="menu-primary">
+				
+					<span class="rosary">&nbsp;</span>
+				
+					<ul>
+						<li class="menu-item"><a href="homepage.html"><i>Homepage</i></a></li>
+						<li class="menu-item"><a href="blog.html"><i>Our Journal</i></a></li>
+						<li class="menu-item">
+							<a href="#"><i><span>Media</span></i></a>
+							<ul>
+								<li class="menu-item"><a href="gallery.html"><i>Photo Gallery</i></a></li>
+								<li class="menu-item"><a href="gallery-open.html"><i>Single Open Photo</i></a></li>
+								<li class="menu-item"><a href="full-width.html"><i>Full Width Page</i></a></li>
+								<li class="menu-item"><a href="post.html"><i>Open Journal Entry</i></a></li>
+
+								<li class="menu-item">
+									<a href="#"><i><span>Second Level Menu</span></i></a>
+									<ul>
+										<li class="menu-item"><a href="#"><i>Your Menu Item Goes Here</i></a></li>
+										<li class="menu-item"><a href="#"><i>Your Menu Item Goes Here</i></a></li>
+										<li class="menu-item"><a href="#"><i>Your Menu Item Goes Here</i></a></li>	
+									</ul>
+								</li>
+								
+							</ul>
+						</li>
+						<li class="menu-item">
+							<a href="#"><i><span>Ministries</span></i></a>
+							<ul>
+								<li class="menu-item"><a href="ministries-single-column-view.html"><i>Single Column View</i></a></li>
+								<li class="menu-item"><a href="ministries-two-column-view.html"><i>Two Column View</i></a></li>
+								<li class="menu-item"><a href="ministries-three-column-view.html"><i>Three Column View</i></a></li>								
+							</ul>
+						</li>
+						<li class="menu-item">
+							<a href="#"><i><span>Shortcodes</span></i></a>
+							<ul>
+								<li class="menu-item"><a href="shortcodes-buttons.html"><i>Buttons</i></a></li>
+								<li class="menu-item"><a href="shortcodes-quotes.html"><i>Quotes</i></a></li>
+								<li class="menu-item"><a href="shortcodes-spacers.html"><i>Spacers</i></a></li>
+								<li class="menu-item"><a href="shortcodes-contact-form.html"><i>Contact Form</i></a></li>
+								<li class="menu-item"><a href="shortcodes-lists.html"><i>Lists</i></a></li>
+								<li class="menu-item"><a href="shortcodes-layouts.html"><i>Text Layouts</i></a></li>
+							</ul>
+						</li>
+					</ul>
+					
+					<!-- BEGIN .social -->
+					<div class="social">
+						<a href="#"><img src="/assets/ico-rss-1.png" alt="RSS" /></a>
+						<a href="#"><img src="/assets/ico-twitter-1.png" alt="Twitter" /></a>
+						<a href="#"><img src="/assets/ico-facebook-1.png" alt="Facebook" /></a>
+						<a href="#"><img src="/assets/ico-digg-1.png" alt="Digg.com" /></a>
+						<a href="#"><img src="/assets/ico-linkedin-1.png" alt="LinkedIn" /></a>
+					<!-- END .social -->
+					</div>
+
+				<!-- END .menu-primary -->
+				</div>
+
+
+			<!-- END .menu-primary-wrapper -->
+			</div>
+
+
+			<!-- BEGIN .content-wrapper -->
+			<div class="content-wrapper">
+			
+				<!-- BEGIN .content -->
+				<div class="content">
+				
+				
+					<!-- BEGIN .homepage-wrapper -->
+					<div class="homepage-wrapper">
+
+
+						<!-- BEGIN .homepage-slider -->
+						<div class="homepage-slider">
+							
+							<span class="tag">&nbsp;</span>
+							<span class="rounded-corners">&nbsp;</span>
+              							<div id="aktuals_field" style="overflow:hidden; position: relative;" onmouseover="set_hover_on()" onmouseout="set_hover_off()">
+
+							<table>
+								<tr>
+								
+									<td>
+										<!-- BEGIN .homepage-slider-item -->
+										<div class="homepage-slider-item" id="aktuals1" style="background: url(/assets/image-1.jpg) 0 0 no-repeat;">
+											<p><a href="#" class="title">Lorem ipsum dolor sit amet, consectetur</a></p>
+											<p><a href="#" class="description">Cras in eros eu orci rhoncus consequat eu eleifend risus. Cras vulputate dui at feli
+varius et tur risus viverra. Vivamus commodo gravida malesuada.</a></p>
+										<!-- END .homepage-slider-item -->
+										</div>
+									</td>
+									
+									<td>
+										<!-- BEGIN .homepage-slider-item -->
+										<div class="homepage-slider-item" id="aktuals2" style="background: url(/assets/image-54.jpg) 0 0 no-repeat;">
+											<a href="#" class="title">
+												<i>Cras vulputate dui at felis varius et tur risus viverra</i>
+												<u>Suspendisse a nunc nulla. In accumsan enim a nisi tempor quis bibendum lacus mattis. Curabitur adipiscing nulla quis augue luctus volutpat.</u>
+											</a>
+											<div class="background"></div>
+										<!-- END .homepage-slider-item -->
+										</div>
+									</td>
+									
+									<td>
+										<!-- BEGIN .homepage-slider-item -->
+										<div class="homepage-slider-item" id="aktuals3" style="background: url(/assets/image-55.jpg) 0 0 no-repeat;">
+											<a href="#" class="title">
+												<i>Aenean quis sem sit amet quam laoreet tristiquem auris convallis</i>
+												<u>Vestibulum cursus diam vel magna tristique sodales. Nullam fermentum nibh vitae nisl sodales in blandit sem euismod. Aliquam erat volutpat. Nulla facilisi.</u>
+											</a>
+											<div class="background"></div>
+										<!-- END .homepage-slider-item -->
+										</div>
+									</td>
+									
+									<td>
+										<!-- BEGIN .homepage-slider-item -->
+										<div class="homepage-slider-item" id="aktuals4" style="background: url(/assets/image-56.jpg) 0 0 no-repeat;">
+											<a href="#" class="title">
+												<i>Duis porttitor arcu vitae magna viverra vel imperdiet</i>
+												<u>Donec et ligula sed metus euismod ultrices. Pellentesque ullamcorper velit in tellus luctus hendrerit sed eu enim.</u>
+											</a>
+											<div class="background"></div>
+										<!-- END .homepage-slider-item -->
+										</div>
+									</td>
+									
+									<td>
+										<!-- BEGIN .homepage-slider-item -->
+										<div class="homepage-slider-item" id="aktuals5" style="background: url(/assets/image-57.jpg) 0 0 no-repeat;">
+											<a href="#" class="title">
+												<i>Aliquam et tortor at tellus dapibus luctus</i>
+												<u>Praesent id arcu nec urna iaculis gravida ac ut sapien. Duis et metus id ligula convallis pulvinar. Quisque et libero sit amet erat euismod blandit.</u>
+											</a>
+											<div class="background"></div>
+										<!-- END .homepage-slider-item -->
+										</div>
+									</td>
+
+								</tr>
+							</table>
+							
+							</div>
+							<!-- BEGIN .homepage-slider-image-shadow -->
+							<div class="homepage-slider-image-shadow">
+								&nbsp;
+							<!-- END .homepage-slider-image-shadow -->
+							</div>
+							
+							
+							<!-- BEGIN .navigation -->
+							<div class="navigation" onmouseover="set_hover_on()" onmouseout="set_hover_off()">
+											<a href="#" class="previous" onmouseover="set_hover_on();" onmouseout="set_hover_off();" onclick="scrollLefty(); return false;"></a>
+											<a href="#" id="aktuals1_btn" onclick="scrollToElem(1); return false;" class="active"></a>
+											<a href="#" id="aktuals2_btn" onclick="scrollToElem(2); return false;"></a>
+											<a href="#" id="aktuals3_btn" onclick="scrollToElem(3); return false;"></a>
+											<a href="#" id="aktuals4_btn" onclick="scrollToElem(4); return false;"></a>
+											<a href="#" id="aktuals5_btn" onclick="scrollToElem(5); return false;"></a>
+											<a href="#" class="next" onmouseover="set_hover_on();" onmouseout="set_hover_off();" onclick="scrollRight(); return false;"></a>
+							</div>
+							
+
+						<!-- END .homepage-slider -->
+						</div>
+						
+						
+						<!-- BEGIN .homepage-columns -->
+						<div class="homepage-columns">
+						
+							<!-- BEGIN .homepage-columns-item -->
+							<div class="homepage-columns-item">
+								<div class="title">
+									<div style="background: url(/assets/ico-our-work-1.png) center left no-repeat;">Our Work</div>
+								</div>
+								<div class="text">
+									<p>Lorem ipsum dolor sit amet, cose ctetur adipiscing elit. Ut consequat, odio elementum tristique consectetur, lectus nisi pretium.</p>
+									<p><a href="#" class="more-link">Read more</a></p>
+								</div>
+							<!-- END .homepage-columns-item -->
+							</div>
+							
+							<!-- BEGIN .homepage-columns-item -->
+							<div class="homepage-columns-item">
+								<div class="title">
+									<div style="background: url(/assets/ico-believes-1.png) center left no-repeat;">Believes</div>
+								</div>
+								<div class="text">
+									<p>Integer quis lorem eu arcu vestibulum tincidunt sit amet vitae nisi. Nam luctus, lorem in rutrum ultricies, nisi orci condimentum.</p>
+									<p><a href="#" class="more-link">Read more</a></p>
+								</div>
+							<!-- END .homepage-columns-item -->
+							</div>
+							
+							<!-- BEGIN .homepage-columns-item -->
+							<div class="homepage-columns-item">
+								<div class="title">
+									<div style="background: url(/assets/ico-our-church-1.png) center left no-repeat;">Our Church</div>
+								</div>
+								<div class="text">
+									<p>Nullam diam nisl, condi in eleifend sit amet, interdum vel quam. Curabitur laoreet viverra eleifend. Vivamus viverra justo eu neque.</p>
+									<p><a href="#" class="more-link">Read more</a></p>
+								</div>
+							<!-- END .homepage-columns-item -->
+							</div>
+							
+							<!-- BEGIN .homepage-columns-item -->
+							<div class="homepage-columns-item last">
+								<div class="title">
+									<div style="background: url(/assets/ico-compasion-1.png) center left no-repeat;">Compasion</div>
+								</div>
+								<div class="text">
+									<p>Phasellus eu malesuada ipsum. Integer adipiscing, lacus fermentum mollis suscipit, felis nibh dapibus purus, sit amet.</p>
+									<p><a href="#" class="more-link">Read more</a></p>
+								</div>
+							<!-- END .homepage-columns-item -->
+							</div>
+						
+						<!-- END .homepage-columns -->
+						</div>
+						
+						
+						<!-- BEGIN .homepage-spacer -->
+						<div class="homepage-spacer">
+							&nbsp;
+						<!-- END .homepage-spacer -->
+						</div>
+						
+						
+						<!-- BEGIN .homepage-footer -->
+						<div class="homepage-footer">
+							
+							
+							<!-- BEGIN .block-2 -->
+							<div class="block-2 last">
+								<h2><span>About Ray Of Light Theme For WordPress</span><!-- <img src="/assets/ico-bullet-3.png" alt="About Ray Of Light Theme For WordPress" /> --></h2>
+								<div class="block-2-content">
+									
+									<!-- BEGIN .homepage-about -->
+									<div class="homepage-about">
+									
+										<p class="caps">Sorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat, odio elementum eros lectus nisi pretium eros, sit amet suscipit nulla massa in tortor. Donec nec metus quam. In sed ligula ac risus tempus mattis sed quis orci. Quisque sed ligula turpis. Aliquam erat volutpat. Vivamus vitae tempus justo. <a href="#">Sed luctus elementum</a> nisl eu iaculis. Ut non mauris id neque pretium.</p>
+								
+										<p>Nullam diam nisl, condimentum in eleifend sit amet, interdum vel quam. Curabitur laoreet viverra eleifend. Vivamus viverra justo eu neque blandit sodales. Phasellus pulvinar, mi vel venenatis porta, ante elit egestas quam, non lobortis est diam quis justo. Mauris id elit at tellus tempus suscipit at at leo. Donec sodales ultricies ante et volutpat. Quisque dapibus imperdiet risus id condimentum. Duis dapibus justo nec lectus hendrerit vel ultricies quam semper. Phasellus eu malesuada ipsum.</p>
+										
+										<p><a href="#" class="more-link">Read more</a></p>
+																		
+									<!-- END .homepage-about -->
+									</div>	
+									
+								</div>
+							<!-- END .block-2 -->
+							</div>
+
+
+							<!-- BEGIN .block-1 -->
+							<div class="block-1 last">
+								<h2><span>Latest Entries</span><a href="#"><b>show all</b></a></h2>
+								<div class="block-1-content">
+									
+									<!-- BEGIN .latest-articles -->
+									<div class="latest-articles">
+									
+										<!-- BEGIN .latest-article-item -->
+										<div class="latest-article-item">
+											<table>
+												<tr>
+													<td class="image"><a href="#"><img src="/assets/image-2.jpg" alt="Maecenas pretium facilisis lectus sed molestie" /></a></td>
+													<td class="text">
+														<h3><a href="#">Maecenas pretium facilisis lectus</a></h3>
+														<a href="#" class="more-link">Read more</a>
+													</td>
+												</tr>
+											</table>
+										<!-- END .latest-article-item -->
+										</div>
+										
+										<!-- BEGIN .latest-article-item -->
+										<div class="latest-article-item">
+											<table>
+												<tr>
+													<td class="image"><a href="#"><img src="/assets/image-3.jpg" alt="Suspendisse in arcu urna eget fermentum" /></a></td>
+													<td class="text">
+														<h3><a href="#">Suspendisse in arcu urna eget fermentum</a></h3>
+														<a href="#" class="more-link">Read more</a>
+													</td>
+												</tr>
+											</table>
+										<!-- END .latest-article-item -->
+										</div>
+										
+										<!-- BEGIN .latest-article-item -->
+										<div class="latest-article-item last">
+											<table>
+												<tr>
+													<td class="image"><a href="#"><img src="/assets/image-4.jpg" alt="Nulla euismod cursus sem ultrices massa adipiscing" /></a></td>
+													<td class="text">
+														<h3><a href="#">Nulla euismod cursus sem ultrices massa</a></h3>
+														<a href="#" class="more-link">Read more</a>
+													</td>
+												</tr>
+											</table>
+										<!-- END .latest-article-item -->
+										</div>
+																		
+									<!-- END .latest-articles -->
+									</div>	
+									
+								</div>
+							<!-- END .block-1 -->
+							</div>
+
+
+						<!-- END .homepage-footer -->
+						</div>
+						
+						
+					<!-- END .homepage-wrapper -->
+					</div>
+
+
+				<!-- END .content -->
+				</div>
+				
+			<!-- END .content-wrapper -->
+			</div>
+			
+			
+			<div class="clear-footer"></div>
+			
+		<!-- END .container -->
+		</div>
+		
+		
+		<!-- BEGIN .footer-wrapper -->
+		<div class="footer-wrapper">
+		
+			<!-- BEGIN .footer -->
+			<div class="footer">
+			
+				<!-- BEGIN .cross-hill -->
+				<span class="cross-hill">&nbsp;</span>
+				<!-- END .cross-hill -->
+
+				<table>
+					<tr>
+					
+						<td>
+							<h2>Contact Information</h2>
+							<span class="phone">+371 34 59 12 34</span>
+							<a href="mailto:support@orange-themes.com" class="email">support@orange-themes.com</a>
+							<p>Donec egestas velit at sapien auctor elementum. Quisque nulla dui, mattis et fermentum sed, ultricies in justo.</p>
+						</td>
+						
+						<td class="spacer"></td>
+						
+						<td>
+							<h2>Shortcuts</h2>
+							<ul>
+								<li><a href="#">Read Our <b>Journal</b></a></li>
+								<li><a href="#">View Newest Photos In Our <b>Gallery</b></a></li>
+								<li><a href="#">List Of Our <b>Ministries</b></a></li>
+								<li><a href="#">Link To Your <b>Custom Section</b></a></li>
+							</ul>
+						</td>
+						
+						<td class="spacer"></td>
+						
+						<td>
+							<h2>Social Contacts</h2>
+							<ul>
+								<li class="facebook"><a href="#">Friend Us On <b>Facebook</b></a></li>
+								<li class="twitter"><a href="#">Follow Us On <b>Twitter</b></a></li>
+								<li class="digg"><a href="#">Dig Our Posts On <b>Digg</b></a></li>
+								<li class="rss"><a href="#">Subscribe To Our <b>RSS</b> Feed</a></li>
+							</ul>
+						</td>
+						
+					</tr>
+				</table>
+				
+			<!-- END .footer -->
+			</div>
+		
+		<!-- END .footer-wrapper -->
+		</div>
+		
+		
+		<!-- BEGIN .footer-wrapper-2 -->
+		<div class="footer-wrapper-2">
+			
+			<!-- BEGIN .footer-2 -->
+			<div class="footer-2">
+			
+				<div class="left">
+					Copyright © 2012 <b>bibelcitat.se</b>
+				</div>
+				
+				<div class="right">
+
+				</div>
+			
+			<!-- END .footer-2 -->
+			</div>
+			
+		<!-- END .footer-wrapper-2 -->
+		</div>
+
+    <%= javascript_include_tag "public" %>
+		<script type="text/javascript">
+			Cufon.replace('.title', { textShadow: '#fff 0 1px', hover: 'true' } );
+			Cufon.replace('.menu-item a', { textShadow: '#110d0b 0 1px', hover: 'true' } );
+			Cufon.replace('.block-1 h2 span', { textShadow: '#fff 0 1px' } );
+			Cufon.replace('.block-2 h2 span', { textShadow: '#fff 0 1px' } );
+			Cufon.replace('.footer-wrapper .footer table h2', { textShadow: '#201913 0 1px' } );
+		</script>
+
+	</body>
 </html>
