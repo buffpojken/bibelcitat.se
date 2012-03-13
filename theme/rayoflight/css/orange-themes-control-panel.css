@@ -1,0 +1,288 @@
+/* --
+Name: Orange Themes Control Panel
+Description: Control Panel For WordPress Themes
+Author: Orange Themes
+Author URI: http://www.orange-themes.com/
+Version: 1.0
+
+All files, unless otherwise stated, are released under the GNU General Public License version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+-- */
+
+
+.checkbox, .radio { width: 23px; height: 18px; background: url(../images/control-panel-images/checkbox.png) 0 0 no-repeat; display: block; }
+
+.radio { background: url(../images/control-panel-images/radio.png) no-repeat; }
+
+.select { width: 267px; height: 22px; padding: 5px 0 0 10px; font: 12px/18px Arial, serif; color: #353535; background: url(../images/control-panel-images/select.png) 0 0 no-repeat; overflow: hidden; position: absolute; }
+
+select { height: 27px; padding: 5px 0 0 0; font: 12px/18px Arial, serif; display: block; }
+
+
+.control-panel-wrapper { width: 750px; padding: 0 0 9px 0; margin: 15px 0 0 0; font: 12px/18px Arial, serif; color: #353535; overflow: hidden; background: url(../images/control-panel-images/content-bottom-bg.png) bottom left no-repeat; }
+
+.control-panel-wrapper table, tr, td { margin: 0; padding: 0; border-collapse: collapse; }
+
+
+.control-panel-wrapper .header { width: 750px; height: 107px; background: url(../images/control-panel-images/header-bg.png) 0 0 no-repeat; overflow: hidden; }
+
+.control-panel-wrapper .header .logo { width: 303px; height: 103px; margin: 22px 0 0 38px; text-indent: -5000px; background: url(../images/control-panel-images/logo-orange-themes-control-panel-1.png) 0 0 no-repeat; float: left; }
+
+.control-panel-wrapper .header p { margin: 67px 40px 0 0; float: right; }
+
+.control-panel-wrapper .header a { color: #0064b9; text-shadow: #e6e6e6 0 1px 0; }
+
+.control-panel-wrapper .header a:hover { text-decoration: none; }
+
+
+.control-panel-wrapper .content { width: 750px; background: url(../images/control-panel-images/content-bg.png) 0 0 repeat-y; overflow: hidden; }
+
+
+.control-panel-wrapper .content .menu { width: 186px; float: left; }
+
+.control-panel-wrapper .content .menu a { height: 34px; padding: 15px 0 0 23px; margin: -1px 0 0 0; font-weight: bold; color: #254266; text-decoration: none; display: block; text-shadow: #f2f2f2 0 1px 0; }
+
+.control-panel-wrapper .content .menu a:hover { background: url(../images/control-panel-images/menu-hover-bg.png) 0 0 repeat-x; }
+
+.control-panel-wrapper .content .menu .general span { padding: 1px 0 1px 23px; background: url(../images/control-panel-images/ico-general-1.png) 0 1px no-repeat; }
+
+.control-panel-wrapper .content .menu .slider span { padding: 1px 0 1px 23px; background: url(../images/control-panel-images/ico-slider-1.png) 0 2px no-repeat; }
+
+.control-panel-wrapper .content .menu .custom span { padding: 1px 0 1px 23px; background: url(../images/control-panel-images/ico-custom-1.png) 0 1px no-repeat; }
+
+.control-panel-wrapper .content .menu .translations span { padding: 1px 0 1px 23px; background: url(../images/control-panel-images/ico-translations-1.png) 0 2px no-repeat; }
+
+.control-panel-wrapper .content .menu .documentation span { padding: 2px 0 2px 23px; background: url(../images/control-panel-images/ico-documentation-1.png) 0 0 no-repeat; }
+
+.control-panel-wrapper .content .menu .reservations span { padding: 2px 0 2px 23px; background: url(../images/control-panel-images/ico-reservations-1.png) 0 0 no-repeat; }
+
+.control-panel-wrapper .content .menu .menucard span { padding: 2px 0 2px 23px; background: url(../images/control-panel-images/ico-menucard-1.png) 0 0 no-repeat; }
+
+.control-panel-wrapper .content .menu .active { color: #fff; text-shadow: #6d7785 0 1px 0; background: url(../images/control-panel-images/menu-hover-bg.png) 0 -49px repeat-x; }
+
+.control-panel-wrapper .content .menu .active span { background-position: 0 -100px; }
+
+.control-panel-wrapper .content .menu .active:hover {  background: url(../images/control-panel-images/menu-hover-bg.png) 0 -49px repeat-x; }
+
+
+.control-panel-wrapper .content .follow { width: 159px; padding: 18px 0 0 18px; position: absolute; margin: -126px 0 0 -182px; text-shadow: #f2f2f2 0 1px 0; background: url(../images/control-panel-images/follow-border-bg.png) 0 0 repeat-x; }
+
+.control-panel-wrapper .content .follow a { font-size: 11px; color: #254266; text-decoration: none; display: block; }
+
+.control-panel-wrapper .content .follow a:hover { text-decoration: underline; }
+
+.control-panel-wrapper .content .follow p { margin: 0 0 12px 0; font-weight: bold; color: #254266; }
+
+.control-panel-wrapper .content .follow .themeforest { padding: 0 0 0 25px; margin: 0 0 8px 0; background: url(../images/control-panel-images/logo-themeforest-1.png) 0 1px no-repeat; }
+
+.control-panel-wrapper .content .follow .twitter { padding: 0 0 0 25px; margin: 0 0 5px 0; background: url(../images/control-panel-images/logo-twitter-1.png) 0 1px no-repeat; }
+
+.control-panel-wrapper .content .follow .orangethemes { padding: 3px 0 0 25px; background: url(../images/control-panel-images/logo-orangethemes-1.png) 0 0 no-repeat; }
+
+
+.control-panel-wrapper .content .tabs { padding: 14px 0 0 18px; margin: 0 0 15px 0; background: url(../images/control-panel-images/tabs-bg.png) bottom left repeat-x; overflow: hidden; }
+
+.control-panel-wrapper .content .tabs a { height: 33px; margin: 0 10px 0 0; font-weight: bold; color: #fff; text-shadow: #6d7785 0 1px 0; text-decoration: none; background: url(../images/control-panel-images/tabs-left-bg.png) 0 0 no-repeat; float: left; }
+
+.control-panel-wrapper .content .tabs span { height: 25px; margin: 0 -5px 0 0; padding: 8px 18px 0 18px; background: url(../images/control-panel-images/tabs-right-bg.png) top right no-repeat; float: left; }
+
+.control-panel-wrapper .content .tabs .active { height: 34px; margin: 0 10px 0 0; color: #254266; text-shadow: #fff 0 1px 0; background-position: 0 -33px; }
+
+.control-panel-wrapper .content .tabs .active span { height: 25px; margin: 0 -5px 0 0; background-position: right -33px; }
+
+
+.control-panel-wrapper .content .settings { width: 564px; float: left; }
+
+.control-panel-wrapper .content .settings form { min-height: 397px; }
+
+.control-panel-wrapper .content .settings table { width: 100%; }
+
+.control-panel-wrapper .content .info { margin: 2px 0 0 7px; float: left; }
+
+.control-panel-wrapper .content .info img { border: none; }
+
+
+.control-panel-wrapper .content .settings .item td { padding: 16px 0 18px 0; background: url(../images/control-panel-images/settings-item-bg.png) bottom left repeat-x; }
+
+.control-panel-wrapper .content .settings .item .label { width: 219px; padding-left: 34px; font: 12px/18px Arial, serif; color: #353535; }
+
+.control-panel-wrapper .content .settings .item div.label { padding: 5px 0 0 34px; float: left; }
+
+.control-panel-wrapper .content .settings .item .label span { float: left; }
+
+.control-panel-wrapper .content .settings .item .setting { font: 12px/18px Arial, sans-serif; width: 277px; padding-right: 34px; }
+
+.control-panel-wrapper .content .settings .item p { margin: 0; }
+
+.control-panel-wrapper .content .settings .item p.label { width: 219px; padding-left: 34px; margin: 0; float: left; }
+
+.control-panel-wrapper .content .settings .item p.label-wide { width: 496px; padding-left: 34px; margin: 0; float: left; }
+
+.control-panel-wrapper .content .settings .item p.label span { padding: 5px 0 0 0; float: left; }
+
+.control-panel-wrapper .content .settings .item p.label .info { margin: 7px 0 0 7px; }
+
+.control-panel-wrapper .content .settings .item div { margin: 0 0 18px 0; overflow: hidden; }
+
+.control-panel-wrapper .content .settings .item div.setting { width: 277px; padding-right: 34px; margin: 0; float: left; position: relative; }
+
+.control-panel-wrapper .content .settings .item .last { margin: 0; }
+
+.control-panel-wrapper .content .settings .item .element { width: 496px; padding: 0 0 5px 0; margin: 0 0 10px 34px; font: 12px/18px Arial, serif; color: #353535; background: url(../images/control-panel-images/element-bottom-bg.png) bottom center no-repeat; }
+
+.control-panel-wrapper .content .settings .item .element p b { margin: 0 5px 0 0; }
+
+.control-panel-wrapper .content .settings .item .element .text { margin: 0; padding: 0; }
+
+.control-panel-wrapper .content .settings .item .element .delete { width: 15px; height: 15px; margin: 14px 0 0 468px; text-indent: -5000px; background: url(../images/control-panel-images/ico-delete-1.png) 0 0 no-repeat; position: absolute; }
+
+.control-panel-wrapper .content .settings .item .element .content { width: 464px; margin: 0; padding: 14px 16px 8px 16px; background: url(../images/control-panel-images/element-top-bg.png) 0 0 no-repeat; }
+
+.control-panel-wrapper .content .settings .item .element .image { float: left; width: 45px; margin: 4px 15px 0 0; }
+
+.control-panel-wrapper .content .settings .item .element .image img { border: none; display: block; }
+
+.control-panel-wrapper .content .settings .item .element .text { width: 404px; float: left; margin: 0; }
+
+.control-panel-wrapper .content .settings .item .last { margin: 0 0 0 34px; }
+
+.control-panel-wrapper table, tr.item-1, td { margin: 0; padding: 16px 0 18px 0; border-collapse: collapse; }
+
+
+
+.control-panel-wrapper .content .settings .item-1 .label { width: 219px; padding-left: 34px; font: 12px/18px Arial, serif; color: #353535; }
+
+.control-panel-wrapper .content .settings .item-1 div.label { padding: 5px 0 0 34px; float: left; }
+
+.control-panel-wrapper .content .settings .item-1 .label span { float: left; }
+
+.control-panel-wrapper .content .settings .item-1 .setting { font: 12px/18px Arial, sans-serif; width: 277px; padding-right: 34px; }
+
+.control-panel-wrapper .content .settings .item-1 p { margin: 0; }
+
+.control-panel-wrapper .content .settings .item-1 p.label { width: 219px; padding-left: 34px; margin: 0; float: left; }
+
+.control-panel-wrapper .content .settings .item-1 p.label-wide { width: 496px; padding-left: 34px; margin: 0; float: left; }
+
+.control-panel-wrapper .content .settings .item-1 p.label span { padding: 5px 0 0 0; float: left; }
+
+.control-panel-wrapper .content .settings .item-1 p.label .info { margin: 7px 0 0 7px; }
+
+.control-panel-wrapper .content .settings .item-1 div { margin: 0 0 18px 0; overflow: hidden; }
+
+.control-panel-wrapper .content .settings .item-1 div.setting { width: 277px; padding-right: 34px; margin: 0; float: left; position: relative; }
+
+.control-panel-wrapper .content .settings .item-1 .last { margin: 0; }
+
+.control-panel-wrapper .content .settings .item-1 .element { width: 496px; padding: 0 0 5px 0; margin: 0 0 10px 34px; font: 12px/18px Arial, serif; color: #353535; background: url(../images/control-panel-images/element-bottom-bg.png) bottom center no-repeat; }
+
+.control-panel-wrapper .content .settings .item-1 .element p b { margin: 0 5px 0 0; }
+
+.control-panel-wrapper .content .settings .item-1 .element .text { margin: 0; padding: 0; }
+
+.control-panel-wrapper .content .settings .item-1 .element .delete { width: 15px; height: 15px; margin: 14px 0 0 468px; text-indent: -5000px; background: url(../images/control-panel-images/ico-delete-1.png) 0 0 no-repeat; position: absolute; }
+
+.control-panel-wrapper .content .settings .item-1 .element .content { width: 464px; margin: 0; padding: 14px 16px 8px 16px; background: url(../images/control-panel-images/element-top-bg.png) 0 0 no-repeat; }
+
+.control-panel-wrapper .content .settings .item-1 .element .image { float: left; width: 45px; margin: 4px 15px 0 0; }
+
+.control-panel-wrapper .content .settings .item-1 .element .image img { border: none; display: block; }
+
+.control-panel-wrapper .content .settings .item-1 .element .text { width: 404px; float: left; margin: 0; }
+
+.control-panel-wrapper .content .settings .item-1 .last { margin: 0 0 0 34px; }
+
+.control-panel-wrapper .content .settings .last td { margin: 0; padding: 16px 0 9px 0; background: none; }
+
+
+.control-panel-wrapper .content .settings .table table { width: 496px; margin: 0 34px; }
+
+.control-panel-wrapper .content .settings .table td { font: 11px Arial, sans-serif; padding: 10px 0; background-color: #e5e5e5; text-align: center; }
+
+.control-panel-wrapper .content .settings .table .title td { padding: 0 0 15px 0; font-weight: bold; background: url(../images/control-panel-images/table-title-bg.png) bottom left repeat-x; }
+
+.control-panel-wrapper .content .settings .table .odd td { background-color: #ececec; }
+
+
+.control-panel-wrapper .input-text-1 { height: 27px; background: url(../images/control-panel-images/input-text-1-left-bg.png) 0 0 no-repeat; float: left; }
+
+.control-panel-wrapper .input-text-1 input { height: 27px; margin: 0 -5px 0 0; padding: 0 8px; font: 12px/26px Arial, serif; color: #353535; background: url(../images/control-panel-images/input-text-1-right-bg.png) right 0 no-repeat; border: none; float: left; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+.control-panel-wrapper .input-text-2 { width: 184px; height: 27px; margin: 0; padding: 0 8px; font: 12px/26px Arial, serif; color: #353535; background: url(../images/control-panel-images/input-text-2-bg.png) right 0 no-repeat; border: none; float: left; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+
+.control-panel-wrapper .text-area-1 { width: 261px; height: 134px; padding: 8px; margin: 0 0 13px 0; background: url(../images/control-panel-images/text-area-1-bg.png) 0 0 no-repeat; border: none; font: 12px/18px Arial, serif; color: #353535; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+
+.control-panel-wrapper .btn { width: auto !important; margin: 0 auto !important; }
+
+.control-panel-wrapper .btn td { padding: 0 !important; background: none !important; }
+
+
+.control-panel-wrapper .btn-1 { height: 31px; padding: 0 5px 0 0; background: url(../images/control-panel-images/btn-1-right-bg.png) top right no-repeat; color: #254266; font: bold 12px/18px Arial, serif; text-decoration: none; text-shadow: #fff 0 1px 0; display: block; float: left; }
+
+.control-panel-wrapper .btn-1 span { background: url(../images/control-panel-images/btn-1-left-bg.png) top left no-repeat; display: block; height: 24px; text-align: center; padding: 7px 14px 0 20px; }
+
+.control-panel-wrapper .btn-1:hover { color: #254266; background-position: right -31px; }
+
+.control-panel-wrapper .btn-1:hover span { background-position: left -31px; }
+
+.control-panel-wrapper .btn-1:active { color: #254266; background-position: right -62px; }
+
+.control-panel-wrapper .btn-1:active span { background-position: left -62px; }
+
+
+.control-panel-wrapper .btn-2 { height: 31px; padding: 0 5px 0 0; background: url(../images/control-panel-images/btn-2-right-bg.png) top right no-repeat; color: #fff; font: bold 12px/18px Arial, serif; text-decoration: none; text-shadow: #234d06 0 1px 0; display: block; float: right; }
+
+.control-panel-wrapper .btn-2 span { background: url(../images/control-panel-images/btn-2-left-bg.png) top left no-repeat; display: block; height: 24px; text-align: center; padding: 7px 14px 0 20px; }
+
+.control-panel-wrapper .btn-2:hover { color: #fff; background-position: right -31px; }
+
+.control-panel-wrapper .btn-2:hover span { background-position: left -31px; }
+
+.control-panel-wrapper .btn-2:active { color: #fff; background-position: right -62px; }
+
+.control-panel-wrapper .btn-2:active span { background-position: left -62px; }
+
+
+.control-panel-wrapper .btn-3 { height: 25px; padding: 0 5px 0 0; background: url(../images/control-panel-images/btn-3-right-bg.png) top right no-repeat; color: #254266; font: bold 11px/16px Arial, serif; text-decoration: none; text-shadow: #fff 0 1px 0; display: block; float: left; }
+
+.control-panel-wrapper .btn-3 span { background: url(../images/control-panel-images/btn-3-left-bg.png) top left no-repeat; display: block; height: 20px; text-align: center; padding: 5px 5px 0 11px; }
+
+.control-panel-wrapper .btn-3:hover { color: #254266; background-position: right -25px; }
+
+.control-panel-wrapper .btn-3:hover span { background-position: left -25px; }
+
+.control-panel-wrapper .btn-3:active { color: #254266; background-position: right -50px; }
+
+.control-panel-wrapper .btn-3:active span { background-position: left -50px; }
+
+
+.popup-help { width: auto !important; margin-left: 7px !important; position: absolute; display: inline; z-index: 500; }
+
+.popup-help td { padding: 0 !important; border: none !important; background: none !important; }
+
+.popup-help .tl { width: 8px; height: 4px; background: url(../images/control-panel-images/popup-help-tl-bg.png) top right no-repeat !important; }
+
+.popup-help .tm { width: 4px; height: 4px; background: url(../images/control-panel-images/popup-help-tm-bg.png) top right repeat-x !important; }
+
+.popup-help .tr { width: 4px; height: 4px; background: url(../images/control-panel-images/popup-help-tr-bg.png) 0 0 no-repeat !important; }
+
+.popup-help .ml { width: 8px; background: url(../images/control-panel-images/popup-help-ml-bg.png) center right no-repeat !important; }
+
+.popup-help .mr { width: 4px; background: url(../images/control-panel-images/popup-help-mr-bg.png) top left repeat-y !important; }
+
+.popup-help .mm { width: 250px; padding: 5px 10px !important; color: #fff; font-size: 11px !important; font-weight: normal !important; text-shadow: #2b2b2b 0 1px 0 !important; background: url(../images/control-panel-images/popup-help-mm-bg.png) center center repeat !important;  }
+
+.popup-help .mm p:first-child { margin: 0 !important; }
+
+.popup-help .mm p { margin: 10px 0 0 0 !important; }
+
+.popup-help .bl { width: 8px; height: 4px; background: url(../images/control-panel-images/popup-help-bl-bg.png) top right no-repeat !important; }
+
+.popup-help .bm { width: 4px; height: 4px; background: url(../images/control-panel-images/popup-help-bm-bg.png) top right repeat-x !important; }
+
+.popup-help .br { width: 4px; height: 4px; background: url(../images/control-panel-images/popup-help-br-bg.png) 0 0 no-repeat !important; }
+
+.popup-help .close { width: 19px; height: 19px; margin: -9px 0 0 -9px; text-indent: -5000px; position: absolute; background: url(../images/control-panel-images/ico-close-1.png) 0 0 no-repeat !important; }
+
+.popup-help-hidden { display: none; }

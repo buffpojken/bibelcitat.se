@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Ray Of Light Premium Wordpress Theme&rdquo; Documentation by &ldquo;Orange-Themes.com&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Ray Of Light Premium Wordpress Theme&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 20/02/2010<br>
+					By: <a href="http://www.orange-themes.com">Orange-Themes.com</a><br>
+					Email: <a href="mailto:support@orange-themes.com">support@orange-themes.com</a>
+					Example page: <a href="http://rayoflight.orange-themes.com">Ray Of Light Theme</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/orange-themes">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#Installation">Installation</a></li>
+			<li><a href="#customMenus">Custom Menu</a></li>
+			<li><a href="#rightSidebar">Customizing Right Sidebar with Widgets</a></li>
+			<li><a href="#themeContent">General config - Colors, Uploading Logo, editing Social Share Icons and Footer</a></li>
+			<li><a href="#thumbnails">Post Thumbnails</a></li>
+			<li><a href="#css">Css Files</a></li>
+			<li><a href="#postDirections">Use of Read More tag in Writing Posts</a></li>
+			<li><a href="#homepageconfig">Homepage Configuration</a></li>
+			<li><a href="#blogconfig">Blog Configuration</a></li>
+			<li><a href="#gallery">Using gallery</a></li>
+			<li><a href="#portfolio">Using portfolio</a></li>
+			<li><a href="#shortcodes">Shortcodes</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="Installation"><strong>A) Installation</strong> - <a href="#toc">top</a></h3>
+		<p><b>1) FILE UPLOAD</b></p>
+		<p>First you need to upload all theme files to wordpress theme directory (wp-content/themes). After that, make sure you upload all included plugins form the plugin directory to wordpress plugin directory (wp-content/plugins)</p>
+		
+		<p><b>2) FILE AND FOLDER PERMISSIONS</b></p>
+		
+		<p>After you have uploaded all the files, you have to give them the correct permissions. This can be done using FTP client, such as Filezilla. Locate folder <b>Cache</b> in themes directory and give it and all its subfolders/files Permission level of <b>777</b>.</p>
+		
+				
+		<h3 id="customMenus"><strong>B) Custom Menus</strong> - <a href="#toc">top</a></h3>
+		<p>Go to <b>Appearance</b> > <b>Menus</b>. Give your menu a name and build it up using little widgets on the right. You can add pages, categories or custom URLs.
+		<p>Now simply select the theme location for your newly created menus using a widget on the left. Afterwards, click "Save".</p>
+		<img src="assets/images/2.png" /><br/><br/>
+		<p>See <a href="http://codex.wordpress.org/Appearance_Menus_SubPanel">Menu Help</a> for more information.</b></p>
+		
+		<hr>
+		
+		<h3 id="rightSidebar"><strong>C) Customizing right sidebar with widgets</strong> - <a href="#toc">top</a></h3>
+		<p>As you may have probably noticed, after instaling the theme, your right sidebar is empty. We have provided you with an opportunity to completely customizing it to your liking with the use of wordpress <b>Widgets</b></p>
+		<p>Go to <b>Appearance</b> > <b>Widgets</b>. You can drag and drop widgets in each of positions. See <a href="http://automattic.com/code/widgets/use/">Widget Help</a> for more information.</b></p>
+		<a href="assets/images/3_1.png"  target="blank"><img src="assets/images/3.png" /></a><br/><br/>
+		<hr>
+
+		<h3 id="themeContent"><strong>D) Uploading Logo, editing Social Share Icons and Footer</strong> - <a href="#toc">top</a></h3>
+		<p>This theme comes with built in configuration page, that allows you to easily change pages Logo, add Social Share Icon Links and Manage Footer content and more. Just see <b>Theme Configuration</b> page on your wp-admin. It's under Appearance tab. See further explanations on the page. </p>
+
+		<hr>
+		
+		
+		<h3 id="thumbnails"><strong>E) Post Thumbnails</strong> - <a href="#toc">top</a></h3>
+		<p>Ray Of Light Theme uses a lot of different sized post thumbnails that help your site look very professional.</p>
+		
+		<p>Ray Of Light has many ways to set post thumbnails</p>
+		<ul>
+			<li>Using custom fields. Use field names - <i>image</i>, <i>big_image</i>(homepage only) or <i>slider</i>(blog slider only). Copy URL of the image in the value box.</li>
+			<li>Use wordpress featured pictures. (Upload image, press "set as featured" at the bottom of window)<img src="assets/images/5.png" /><br/><br/></li>
+			<li>Auto grab the first uploaded image.</li>
+			<li>Show blank "no image" picture.</li>
+		</ul>
+		
+	
+		<hr>
+		
+		<h3 id="css"><strong>F) Css Files</strong> - <a href="#toc">top</a></h3>
+		<p>All of Ray Of Light CSS file is located within css direcrory. Edit with caution!</p>
+
+		<hr>
+		
+		<h3 id="postDirections"><strong>G) Use of Read More tag in Writing Posts </strong> - <a href="#toc">top</a></h3>
+		<p><b>It is recommended that you place a "read more" tag in your every post</b>. You should also try not to make the part of post, that is before "read more" tag too long. <img src="assets/images/4.png" /><br/><br/>  See <a href="http://en.support.wordpress.com/splitting-content/more-tag/">Wordpress Help</a> for more information.</p>
+
+
+		<hr>
+		
+		<h3 id="homepageconfig"><strong>H) Homepage configuration </strong> - <a href="#toc">top</a></h3>
+		
+		<p>Go to homepage tab in your theme configuration page on wp-admin. There you can see specific guidance about setting up your homepage.</p>
+		
+		<p>You have the option of disabling slider/ using static picture or using slider. You can add specific images to your homepage slider using custom field with name "big_image" and image URL as a value. Follow instructions given on the page.</p>
+		
+		<img src="assets/images/1.png" /><br/><br/>
+		
+		<p>This panel also allows you to disable/enable info blocks - four blocks that hold any information you wish to show, picture and a link. For example, you could have blocks like - Support, Team, About, Shop etc. Paste links to your chosen images, or just grab the ones stored in theme images folder. Read more url should hold a Url to a post or page on your blog.</p>
+
+		<p>Homepage footer is the lowest part of your themes homepage. There you can show the contents of a post (or just part of the content, if you have set the "read more tag"). Select chosen post from dropdown box and click submit. This section also has space for widgets, that you can edit from widget section.</p>
+		<hr>
+	
+		<h3 id="blogconfig"><strong>I) Blog Configuration </strong> - <a href="#toc">top</a></h3>
+		
+		<p>Go to Blog tab in your theme configuration page on wp-admin. There you can see specific guidance about setting up your blog.</p>
+		
+		<p> There you can enable/disable homepage slider.  You can add specific images to your homepage slider using custom field with name "slider" and image URL as a value. </p>
+		<img src="assets/images/1.png" /><br/><br/>
+		<p>You have the option showing or not showning thumbs on the first page. Use checkboxes that are given, to edit these settings.</p>
+		
+		<p>Post settings allow you to filter images and other objects (such as videos) from first blog page (recommended). If these items are shown, they will be resized accordingly.</p>
+
+		<hr>
+		
+		<h3 id="gallery"><strong>J) Using gallery </strong> - <a href="#toc">top</a></h3>
+		
+		<p>Go to "pages" section of your wp-admin and create new page. On the right side of page, you will find "template" section. Choose "gallery" from the drop down, click publish. </p>
+		
+		<p>Now you can go to "Gallery" tab on your wp-admin and add new items. You have to choose thumbnails for gallery, just like you would do it for normal post. Every picture you upload to gallery will be shown.(you don't need to include them in post content.). You can write description about gallery in text field.</p>
+
+		<p>Under "Theme Configuration" page on your wp-admin you can edit the number of gallery items shown per page.</p>
+		
+		<hr>
+
+		<h3 id="portfolio"><strong>K) Using Portfolio </strong> - <a href="#toc">top</a></h3>
+		
+		<p>Go to "pages" section of your wp-admin and create new page. On the right side of page, you will find "template" section. You will have 3 options of portfolios there - single, two or three column portfolios. Choose the one you like from the drop down, click publish. </p>
+		
+		<p>Now you can go to "Portfolio" tab on your wp-admin and add new items. You have to add picture as thumbnails, just like you would do it for normal post. You can write description about portfolio item in text field.</p>
+
+		<p>Under "Theme Configuration" page on your wp-admin you can edit the number of gallery items shown per page.</p>
+
+		<hr>
+		
+		<h3 id="shortcodes"><strong>L) Shortcodes </strong> - <a href="#toc">top</a></h3>
+		
+		<p>More information about shortcodes You can find on our web <a target="_blank" href="http://rayoflight.orange-themes.com">page</a> </p>
+
+		<hr>
+		
+	
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		
+		<p class="append-bottom alt large"><strong>Orange Themes</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

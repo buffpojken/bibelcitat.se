@@ -1,0 +1,8 @@
+Version 1:
+* 
+Inital release
+
+Version 2.0:
+* Completely new managing system
+* Easy to add images to slider
+* Compatible with wordpress 3.2
